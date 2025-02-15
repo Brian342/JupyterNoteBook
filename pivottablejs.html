@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PivotTable.js</title>
+
+        <!-- external libs from cdnjs -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/pivot.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/pivot.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/d3_renderers.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/c3_renderers.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/export_renderers.min.js"></script>
+
+        <style>
+            body {font-family: Verdana;}
+            .node {
+              border: solid 1px white;
+              font: 10px sans-serif;
+              line-height: 12px;
+              overflow: hidden;
+              position: absolute;
+              text-indent: 2px;
+            }
+            .c3-line, .c3-focused {stroke-width: 3px !important;}
+            .c3-bar {stroke: white !important; stroke-width: 1;}
+            .c3 text { font-size: 12px; color: grey;}
+            .tick line {stroke: white;}
+            .c3-axis path {stroke: grey;}
+            .c3-circle { opacity: 1 !important; }
+            .c3-xgrid-focus {visibility: hidden !important;}
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(function(){
+                if(window.location != window.parent.location)
+                    $("<a>", {target:"_blank", href:""})
+                        .text("[pop out]").prependTo($("body"));
+
+                $("#output").pivotUI(
+                    $.csv.toArrays($("#output").text()),
+                    $.extend({
+                        renderers: $.extend(
+                            $.pivotUtilities.renderers,
+                            $.pivotUtilities.c3_renderers,
+                            $.pivotUtilities.d3_renderers,
+                            $.pivotUtilities.export_renderers
+                            ),
+                        hiddenAttributes: [""]
+                    }, {})
+                ).show();
+             });
+        </script>
+        <div id="output" style="display: none;">,County,Hiv (Non-Aids) Cases Living,AIDS CASES LIVING
+0,Adams,26,29
+1,Alexander,15,9
+2,Bond,7,12
+3,Boone,22,16
+4,Brown,14,17
+5,Bureau,12,5
+6,Calhoun,3,0
+7,Carroll,1,3
+8,Cass,10,2
+9,Champaign,256,207
+10,Christian,17,17
+11,Clark,2,7
+12,Clay,5,3
+13,Clinton,22,31
+14,Coles,26,22
+15,Cook,16000,14277
+16,Crawford,23,19
+17,Cumberland,3,2
+18,DeKalb,75,47
+19,De Witt,4,5
+20,Douglas,1,1
+21,DuPage,572,440
+22,Edgar,4,6
+23,Edwards,1,3
+24,Effingham,3,10
+25,Fayette,24,28
+26,Ford,2,3
+27,Franklin,12,23
+28,Fulton,26,25
+29,Gallatin,3,2
+30,Greene,2,3
+31,Grundy,15,12
+32,Hamilton,1,4
+33,Hancock,0,2
+34,Hardin,2,2
+35,Henderson,1,0
+36,Henry,13,24
+37,Iroquois,3,9
+38,Jackson,57,40
+39,Jasper,1,3
+40,Jefferson,30,18
+41,Jersey,8,3
+42,Jo Daviess,5,8
+43,Johnson,30,32
+44,Kane,419,361
+45,Kankakee,84,81
+46,Kendall,44,27
+47,Knox,33,44
+48,Lake,541,461
+49,LaSalle,51,39
+50,Lawrence,5,13
+51,Lee,29,35
+52,Livingston,56,62
+53,Logan,33,32
+54,McDonough,13,9
+55,McHenry,108,78
+56,McLean,134,97
+57,Macon,113,85
+58,Macoupin,18,15
+59,Madison,209,146
+60,Marion,10,19
+61,Marshall,2,4
+62,Mason,3,4
+63,Massac,6,7
+64,Menard,6,5
+65,Mercer,8,3
+66,Monroe,16,9
+67,Montgomery,37,34
+68,Morgan,24,29
+69,Moultrie,4,2
+70,Ogle,13,15
+71,Peoria,188,192
+72,Perry,16,17
+73,Piatt,3,4
+74,Pike,1,2
+75,Pope,3,1
+76,Pulaski,11,2
+77,Putnam,1,0
+78,Randolph,32,26
+79,Richland,5,5
+80,Rock Island,140,127
+81,St. Clair,473,378
+82,Saline,9,7
+83,Sangamon,179,135
+84,Schuyler,1,2
+85,Scott,0,0
+86,Shelby,1,4
+87,Stark,0,0
+88,Stephenson,22,30
+89,Tazewell,40,39
+90,Union,5,1
+91,Vermilion,56,68
+92,Wabash,4,0
+93,Warren,4,5
+94,Washington,2,6
+95,Wayne,3,4
+96,White,4,5
+97,Whiteside,7,15
+98,Will,528,385
+99,Williamson,40,21
+100,Winnebago,275,255
+101,Woodford,9,5
+102,Unknown,1,2
+103,Illinois,21447,18891
+</div>
+    </body>
+</html>
