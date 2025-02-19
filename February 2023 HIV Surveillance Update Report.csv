@@ -1,7 +1,7 @@
-,Cumulative Cases Diagnosed in 2016,Total Cases,Total Cases %,Case Rate,Total Deaths,Male Cases,Male Cases %,Male Case Rate,Female Cases,Female Cases %,Female Case Rate
-0,Total,9508,100.0,10.3,195,7864,100.0,17.36,1644,100.0,3.5
-1,"White, non-Hispanic",1981,20.84,3.41,63,1726,21.95,6.06,255,15.51,0.86
-2,"Black, non-Hispanic",4510,47.43,34.32,98,3456,43.95,56.18,1054,64.11,15.08
-3,"Hispanic, all races",2233,23.49,14.83,25,2038,25.92,26.22,195,11.86,2.68
-4,Other,601,6.32,10.16,8,489,6.22,17.07,112,6.81,3.67
-5,Unknown,183,1.92,10.16,1,155,1.97,17.07,28,1.7,3.67
+,Unnamed: 0,Cumulative Cases Diagnosed in 2016,Total Cases,Total Cases %,Case Rate,Total Deaths,Male Cases,Male Cases %,Male Case Rate,Female Cases,Female Cases %,Female Case Rate
+0,0,Total,9508,100.0,10.3,195,7864,100.0,17.36,1644,100.0,3.5
+1,1,"White, non-Hispanic",1981,20.84,3.41,63,1726,21.95,6.06,255,15.51,0.86
+2,2,"Black, non-Hispanic",4510,47.43,34.32,98,3456,43.95,56.18,1054,64.11,15.08
+3,3,"Hispanic, all races",2233,23.49,14.83,25,2038,25.92,26.22,195,11.86,2.68
+4,4,Other,601,6.32,10.16,8,489,6.22,17.07,112,6.81,3.67
+5,5,Unknown,183,1.92,10.16,1,155,1.97,17.07,28,1.7,3.67
