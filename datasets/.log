@@ -1,0 +1,8 @@
+2025-02-25 10:44:22,899 [86295] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {'d3': 'https://d3js.org/d3.v5.min'}, 'shim': {}}
+2025-02-25 10:44:44,287 [86295] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {'d3': 'https://d3js.org/d3.v5.min'}, 'shim': {}}
+2025-02-25 10:47:37,727 [86295] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {'d3': 'https://d3js.org/d3.v5.min'}, 'shim': {}}
+2025-02-25 10:51:14,464 [86295] ERROR    ipykernel.comm:46: [JupyterRequire] No such comm target registered: jupyter.widget.control
+2025-02-25 10:51:14,472 [86295] WARNING  Comm:246: [JupyterRequire] No such comm: 53790dd8-d6fc-4b48-980f-07fc6a30182a
+2025-02-25 10:51:14,477 [86295] DEBUG    Comm:249: [JupyterRequire] Current comms: []
+2025-02-25 10:51:16,957 [86295] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {'d3': 'https://d3js.org/d3.v5.min'}, 'shim': {}}
+2025-02-25 10:51:47,563 [86360] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {'d3': 'https://d3js.org/d3.v5.min'}, 'shim': {}}
