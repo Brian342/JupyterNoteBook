@@ -11838,3 +11838,12 @@
 2025-02-26 06:19:45,525 [1423] ERROR    ipykernel.comm:46: [JupyterRequire] No such comm target registered: jupyter.widget.control
 2025-02-26 06:19:45,532 [1423] WARNING  Comm:246: [JupyterRequire] No such comm: 8cd1a295-7e45-40de-a00a-f7d2f335dcb8
 2025-02-26 06:19:45,534 [1423] DEBUG    Comm:249: [JupyterRequire] Current comms: []
+2025-02-26 06:56:13,209 [1423] WARNING  py.warnings:112: [JupyterRequire] /var/folders/6w/_1xx55992tqfg37yz_8bt5v80000gn/T/ipykernel_1423/2613803322.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_copy.drop(columns=['DistanceFromHome', 'Education', 'EmployeeCount', 'Over18'], inplace=True)
+
+2025-02-26 08:28:55,831 [1423] ERROR    ipykernel.comm:46: [JupyterRequire] No such comm target registered: jupyter.widget.control
+2025-02-26 08:28:55,863 [1423] WARNING  Comm:246: [JupyterRequire] No such comm: 25139c5f-f752-428e-966e-c25965224495
+2025-02-26 08:28:55,871 [1423] DEBUG    Comm:249: [JupyterRequire] Current comms: []
