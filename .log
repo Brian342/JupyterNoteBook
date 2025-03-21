@@ -19246,3 +19246,7 @@ The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
 2025-03-21 11:21:20,347 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x1362a9ac0>
 2025-03-21 11:24:36,726 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x13652a1b0>
 2025-03-21 11:25:42,512 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x1364853d0>
+2025-03-21 11:34:04,821 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x136659fa0>
+2025-03-21 11:34:44,916 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x1367277a0>
+2025-03-21 11:59:00,224 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x1366e0200>
+2025-03-21 12:12:17,248 [20005] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x136dc4d10>
