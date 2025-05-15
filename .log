@@ -20438,3 +20438,6 @@ The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
 2025-05-15 15:29:36,772 [41117] DEBUG    matplotlib.font_manager:1428: [JupyterRequire] findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Georgia.ttf', name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
 2025-05-15 15:29:36,772 [41117] DEBUG    matplotlib.font_manager:1428: [JupyterRequire] findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntDReg.otf', name='STIXIntegralsD', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
 2025-05-15 15:29:36,772 [41117] DEBUG    matplotlib.font_manager:1460: [JupyterRequire] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=15.0 to Arial ('/System/Library/Fonts/Supplemental/Arial.ttf') with score of 0.050000.
+2025-05-15 15:38:36,380 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11c518290>
+2025-05-15 15:39:17,888 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11f0d6090>
+2025-05-15 15:39:36,035 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11f2d7e90>
