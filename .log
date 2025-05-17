@@ -20441,3 +20441,5 @@ The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
 2025-05-15 15:38:36,380 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11c518290>
 2025-05-15 15:39:17,888 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11f0d6090>
 2025-05-15 15:39:36,035 [41117] DEBUG    matplotlib.colorbar:855: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x11f2d7e90>
+2025-05-17 20:34:20,390 [41117] INFO     matplotlib.category:223: [JupyterRequire] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 20:34:20,677 [41117] INFO     matplotlib.category:223: [JupyterRequire] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
